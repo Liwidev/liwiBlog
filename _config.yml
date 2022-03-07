@@ -94,19 +94,22 @@ social:
 
 # Analytics
 analytics:
-  provider: false # false (default), "google", "google-universal", "google-gtag", "custom"
+  provider: google-gtag # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id:
-    anonymize_ip: # true, false (default)
+    tracking_id: "G-0EH1X2CG0M"
+    anonymize_ip: false # true, false (default)
 
 # Site Author
 author:
   name: "Ignacio Salazar Williams"
   avatar: "/assets/images/bio-photo.jpeg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio: "I am an **amazing** person."
+  bio: "Passoniate Developer & Architect"
   location: "Boston, MA"
   email:
   links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin-in"
+      url: "https://www.linkedin.com/in/ignacio-salazar-williams/"
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:salazar.williams.i@gmail.com"
@@ -129,6 +132,9 @@ author:
 # Site Footer
 footer:
   links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin-in"
+      url: "https://www.linkedin.com/in/ignacio-salazar-williams/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/liwidev"

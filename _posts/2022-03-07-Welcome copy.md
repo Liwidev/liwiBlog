@@ -1,6 +1,8 @@
 ---
 title: "Layout: Header Image and Text Readability"
 header:
+  teaser: /assets/images/page-header-teaser.png
+  og_image: /assets/images/page-header-og-image.png
   image: /assets/images/unsplash-image-4.jpg
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 tags: 
